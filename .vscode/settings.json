@@ -1,9 +1,10 @@
 {
-    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Enabled": false,
     "python.linting.enabled": true,
     "python.formatting.blackArgs": [
         "--line-length",
         "79",
         "--experimental-string-processing"
-    ]
+    ],
+    "python.linting.mypyEnabled": true
 }
